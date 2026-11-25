@@ -1,0 +1,3061 @@
+{
+ "method": "386 completed games of ESPN play-by-play. All positions converted from absolute yardlines to yards-from-own-goal for the possessing team. EP grid fitted on the same data (down x distance-bucket x 5-yard bin, >=8 samples, hierarchical fallback); EPA/play uses line-of-scrimmage plays only, excludes penalised plays, and scores turnovers as -EP(opponent at new position). Success rate = first-down/TD conversion (3rd/4th &<=2 counts with >=half distance). Explosive play = >=15 net yards. Field position = mean drive start (yards from own goal) and forced_field_pos = mean opponent drive start measured from our goal (higher = better defense). Opponent-adjusted metric = team value minus the mean of its opponents' season values.",
+ "games_used": 386,
+ "teams": {
+  "333": {
+   "plays": 682,
+   "success_rate": 0.3475,
+   "explosive_rate": 0.1334,
+   "ypp": 6.1657,
+   "epa_per_play": -0.1044,
+   "adj_success_rate": 0.0612,
+   "adj_explosive_rate": 0.03,
+   "adj_ypp": 0.9667,
+   "adj_epa_per_play": 0.0548,
+   "turnovers_lost_per_game": 0.91,
+   "field_pos_avg_start": 32.9,
+   "forced_field_pos": 73.7,
+   "key_players": [
+    "K.Russell",
+    "D.Hill",
+    "T.Brown"
+   ]
+  },
+  "151": {
+   "plays": 40,
+   "success_rate": 0.15,
+   "explosive_rate": 0.075,
+   "ypp": 4.025,
+   "epa_per_play": -0.323,
+   "adj_success_rate": -0.1975,
+   "adj_explosive_rate": -0.0584,
+   "adj_ypp": -2.1407,
+   "adj_epa_per_play": -0.2187,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.7,
+   "forced_field_pos": 71.6,
+   "key_players": []
+  },
+  "2": {
+   "plays": 744,
+   "success_rate": 0.3212,
+   "explosive_rate": 0.1331,
+   "ypp": 5.6223,
+   "epa_per_play": -0.1178,
+   "adj_success_rate": 0.0138,
+   "adj_explosive_rate": 0.0277,
+   "adj_ypp": 0.2992,
+   "adj_epa_per_play": 0.0074,
+   "turnovers_lost_per_game": 1.18,
+   "field_pos_avg_start": 29.3,
+   "forced_field_pos": 71.5,
+   "key_players": [
+    "B.Brown",
+    "J.Cobb",
+    "O.Mabson II"
+   ]
+  },
+  "239": {
+   "plays": 797,
+   "success_rate": 0.2823,
+   "explosive_rate": 0.1167,
+   "ypp": 5.1518,
+   "epa_per_play": -0.126,
+   "adj_success_rate": -0.0038,
+   "adj_explosive_rate": 0.0112,
+   "adj_ypp": -0.0442,
+   "adj_epa_per_play": 0.0451,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 32.2,
+   "forced_field_pos": 72.4,
+   "key_players": [
+    "D.Lagway",
+    "D.Pendergrass",
+    "C.Knighten"
+   ]
+  },
+  "2226": {
+   "plays": 86,
+   "success_rate": 0.3256,
+   "explosive_rate": 0.0349,
+   "ypp": 4.6047,
+   "epa_per_play": -0.2174,
+   "adj_success_rate": -0.0028,
+   "adj_explosive_rate": -0.0741,
+   "adj_ypp": -1.0874,
+   "adj_epa_per_play": -0.1416,
+   "turnovers_lost_per_game": 3.0,
+   "field_pos_avg_start": 24.9,
+   "forced_field_pos": 69.4,
+   "key_players": [
+    "C.Veltkamp",
+    "E.Ervin",
+    "L.Farrow"
+   ]
+  },
+  "57": {
+   "plays": 734,
+   "success_rate": 0.3283,
+   "explosive_rate": 0.109,
+   "ypp": 5.6921,
+   "epa_per_play": -0.0758,
+   "adj_success_rate": 0.0215,
+   "adj_explosive_rate": 0.0034,
+   "adj_ypp": 0.2403,
+   "adj_epa_per_play": 0.1093,
+   "turnovers_lost_per_game": 1.09,
+   "field_pos_avg_start": 30.3,
+   "forced_field_pos": 70.9,
+   "key_players": [
+    "A.Philo",
+    "J.Baugh",
+    "T.Jones Jr."
+   ]
+  },
+  "61": {
+   "plays": 668,
+   "success_rate": 0.3787,
+   "explosive_rate": 0.1392,
+   "ypp": 6.8743,
+   "epa_per_play": -0.0511,
+   "adj_success_rate": 0.0857,
+   "adj_explosive_rate": 0.037,
+   "adj_ypp": 1.7054,
+   "adj_epa_per_play": 0.0847,
+   "turnovers_lost_per_game": 0.73,
+   "field_pos_avg_start": 32.3,
+   "forced_field_pos": 72.8,
+   "key_players": [
+    "G.Stockton",
+    "N.Frazier",
+    "D.Phillips Jr."
+   ]
+  },
+  "2634": {
+   "plays": 57,
+   "success_rate": 0.1579,
+   "explosive_rate": 0.0351,
+   "ypp": 2.3509,
+   "epa_per_play": -0.2057,
+   "adj_success_rate": -0.2208,
+   "adj_explosive_rate": -0.1041,
+   "adj_ypp": -4.5234,
+   "adj_epa_per_play": -0.1545,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 24.6,
+   "forced_field_pos": 63.9,
+   "key_players": [
+    "D.Lee",
+    "B.McNair",
+    "Z.Simmons-Brown"
+   ]
+  },
+  "96": {
+   "plays": 700,
+   "success_rate": 0.3271,
+   "explosive_rate": 0.1171,
+   "ypp": 5.9114,
+   "epa_per_play": -0.1009,
+   "adj_success_rate": 0.0197,
+   "adj_explosive_rate": 0.0129,
+   "adj_ypp": 0.5937,
+   "adj_epa_per_play": 0.0247,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.4,
+   "forced_field_pos": 70.8,
+   "key_players": [
+    "K.Minchey",
+    "C.Baxter",
+    "J.Patterson"
+   ]
+  },
+  "2754": {
+   "plays": 65,
+   "success_rate": 0.3077,
+   "explosive_rate": 0.0923,
+   "ypp": 4.5231,
+   "epa_per_play": -0.0384,
+   "adj_success_rate": -0.0195,
+   "adj_explosive_rate": -0.0248,
+   "adj_ypp": -1.3884,
+   "adj_epa_per_play": 0.0624,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 22.6,
+   "forced_field_pos": 67.9,
+   "key_players": [
+    "B.Brungard",
+    "J.Gilbert",
+    "A.Gardner"
+   ]
+  },
+  "145": {
+   "plays": 703,
+   "success_rate": 0.3627,
+   "explosive_rate": 0.138,
+   "ypp": 6.367,
+   "epa_per_play": -0.0941,
+   "adj_success_rate": 0.0632,
+   "adj_explosive_rate": 0.0287,
+   "adj_ypp": 0.8899,
+   "adj_epa_per_play": 0.0617,
+   "turnovers_lost_per_game": 1.6,
+   "field_pos_avg_start": 28.1,
+   "forced_field_pos": 71.1,
+   "key_players": [
+    "T.Chambliss",
+    "K.Lacy",
+    "M.Frazier"
+   ]
+  },
+  "97": {
+   "plays": 695,
+   "success_rate": 0.3583,
+   "explosive_rate": 0.141,
+   "ypp": 6.6777,
+   "epa_per_play": -0.0534,
+   "adj_success_rate": 0.0494,
+   "adj_explosive_rate": 0.031,
+   "adj_ypp": 1.269,
+   "adj_epa_per_play": 0.0947,
+   "turnovers_lost_per_game": 0.64,
+   "field_pos_avg_start": 32.2,
+   "forced_field_pos": 70.5,
+   "key_players": [
+    "L.Kienholz",
+    "I.Brown",
+    "K.Brown"
+   ]
+  },
+  "344": {
+   "plays": 713,
+   "success_rate": 0.3015,
+   "explosive_rate": 0.108,
+   "ypp": 5.5484,
+   "epa_per_play": -0.1184,
+   "adj_success_rate": 0.0123,
+   "adj_explosive_rate": 0.0044,
+   "adj_ypp": 0.3367,
+   "adj_epa_per_play": 0.0274,
+   "turnovers_lost_per_game": 1.18,
+   "field_pos_avg_start": 29.7,
+   "forced_field_pos": 70.0,
+   "key_players": [
+    "K.Taylor",
+    "P.Puckett",
+    "F.Bothwell"
+   ]
+  },
+  "2433": {
+   "plays": 68,
+   "success_rate": 0.1912,
+   "explosive_rate": 0.0294,
+   "ypp": 3.5,
+   "epa_per_play": -0.1728,
+   "adj_success_rate": -0.1104,
+   "adj_explosive_rate": -0.0786,
+   "adj_ypp": -2.0484,
+   "adj_epa_per_play": -0.0544,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 23.2,
+   "forced_field_pos": 70.2,
+   "key_players": [
+    "A.Armenta",
+    "A.Carlisle",
+    "B.Roland"
+   ]
+  },
+  "142": {
+   "plays": 711,
+   "success_rate": 0.3024,
+   "explosive_rate": 0.1181,
+   "ypp": 5.8242,
+   "epa_per_play": -0.1297,
+   "adj_success_rate": 0.002,
+   "adj_explosive_rate": 0.0181,
+   "adj_ypp": 0.4883,
+   "adj_epa_per_play": 0.0242,
+   "turnovers_lost_per_game": 0.73,
+   "field_pos_avg_start": 31.5,
+   "forced_field_pos": 71.9,
+   "key_players": [
+    "A.Simmons",
+    "J.Roberts",
+    "X.Edwards"
+   ]
+  },
+  "2029": {
+   "plays": 51,
+   "success_rate": 0.2157,
+   "explosive_rate": 0.0588,
+   "ypp": 3.6275,
+   "epa_per_play": -0.4863,
+   "adj_success_rate": -0.0867,
+   "adj_explosive_rate": -0.0593,
+   "adj_ypp": -2.1967,
+   "adj_epa_per_play": -0.3566,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 24.4,
+   "forced_field_pos": 60.8,
+   "key_players": [
+    "G.Davis",
+    "J.Schierholz",
+    "Z.Webber"
+   ]
+  },
+  "201": {
+   "plays": 648,
+   "success_rate": 0.2793,
+   "explosive_rate": 0.0849,
+   "ypp": 5.2207,
+   "epa_per_play": -0.18,
+   "adj_success_rate": -0.0072,
+   "adj_explosive_rate": -0.0118,
+   "adj_ypp": 0.1305,
+   "adj_epa_per_play": -0.0206,
+   "turnovers_lost_per_game": 1.3,
+   "field_pos_avg_start": 27.2,
+   "forced_field_pos": 69.4,
+   "key_players": [
+    "J.Mateer",
+    "L.Avant",
+    "T.Blaylock"
+   ]
+  },
+  "2638": {
+   "plays": 100,
+   "success_rate": 0.18,
+   "explosive_rate": 0.03,
+   "ypp": 2.91,
+   "epa_per_play": -0.3637,
+   "adj_success_rate": -0.0924,
+   "adj_explosive_rate": -0.0587,
+   "adj_ypp": -2.1139,
+   "adj_epa_per_play": -0.1677,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.6,
+   "forced_field_pos": 59.1,
+   "key_players": [
+    "E.Colson Jr.",
+    "R.Moore III",
+    "T.Jones"
+   ]
+  },
+  "231": {
+   "plays": 57,
+   "success_rate": 0.1579,
+   "explosive_rate": 0.0702,
+   "ypp": 2.9825,
+   "epa_per_play": -0.1603,
+   "adj_success_rate": -0.156,
+   "adj_explosive_rate": -0.0358,
+   "adj_ypp": -2.6317,
+   "adj_epa_per_play": -0.0658,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 29.0,
+   "forced_field_pos": 70.7,
+   "key_players": [
+    "J.Garcia",
+    "I.Davis",
+    "C.Ackerley"
+   ]
+  },
+  "2633": {
+   "plays": 736,
+   "success_rate": 0.3139,
+   "explosive_rate": 0.106,
+   "ypp": 5.6141,
+   "epa_per_play": -0.0945,
+   "adj_success_rate": 0.0144,
+   "adj_explosive_rate": 0.0026,
+   "adj_ypp": 0.3837,
+   "adj_epa_per_play": 0.0415,
+   "turnovers_lost_per_game": 0.91,
+   "field_pos_avg_start": 32.5,
+   "forced_field_pos": 72.3,
+   "key_players": [
+    "D.Bishop",
+    "G.MacIntyre",
+    "F.Brandon"
+   ]
+  },
+  "326": {
+   "plays": 202,
+   "success_rate": 0.3416,
+   "explosive_rate": 0.1238,
+   "ypp": 6.3564,
+   "epa_per_play": -0.0173,
+   "adj_success_rate": 0.0091,
+   "adj_explosive_rate": 0.012,
+   "adj_ypp": 0.5264,
+   "adj_epa_per_play": 0.0466,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.0,
+   "forced_field_pos": 68.0,
+   "key_players": [
+    "B.Jackson",
+    "T.Burgess Jr.",
+    "J.Jenkins"
+   ]
+  },
+  "251": {
+   "plays": 703,
+   "success_rate": 0.3101,
+   "explosive_rate": 0.1053,
+   "ypp": 5.458,
+   "epa_per_play": -0.1204,
+   "adj_success_rate": -0.0071,
+   "adj_explosive_rate": -0.003,
+   "adj_ypp": -0.272,
+   "adj_epa_per_play": -0.0208,
+   "turnovers_lost_per_game": 1.09,
+   "field_pos_avg_start": 29.4,
+   "forced_field_pos": 70.6,
+   "key_players": [
+    "A.Manning",
+    "R.Brown",
+    "H.Smothers"
+   ]
+  },
+  "2623": {
+   "plays": 688,
+   "success_rate": 0.2805,
+   "explosive_rate": 0.1061,
+   "ypp": 5.4506,
+   "epa_per_play": -0.0994,
+   "adj_success_rate": 0.0001,
+   "adj_explosive_rate": 0.0073,
+   "adj_ypp": 0.2959,
+   "adj_epa_per_play": 0.0858,
+   "turnovers_lost_per_game": 0.91,
+   "field_pos_avg_start": 26.3,
+   "forced_field_pos": 68.2,
+   "key_players": [
+    "H.Belin IV",
+    "S.Locklear",
+    "C.Lair"
+   ]
+  },
+  "245": {
+   "plays": 707,
+   "success_rate": 0.2914,
+   "explosive_rate": 0.0934,
+   "ypp": 5.0113,
+   "epa_per_play": -0.1473,
+   "adj_success_rate": -0.0058,
+   "adj_explosive_rate": -0.0065,
+   "adj_ypp": -0.3419,
+   "adj_epa_per_play": -0.0289,
+   "turnovers_lost_per_game": 1.36,
+   "field_pos_avg_start": 30.6,
+   "forced_field_pos": 72.6,
+   "key_players": [
+    "M.Reed",
+    "R.Owens II",
+    "K.Edwards"
+   ]
+  },
+  "238": {
+   "plays": 686,
+   "success_rate": 0.2945,
+   "explosive_rate": 0.105,
+   "ypp": 5.1487,
+   "epa_per_play": -0.1328,
+   "adj_success_rate": -0.0197,
+   "adj_explosive_rate": -0.0103,
+   "adj_ypp": -0.4813,
+   "adj_epa_per_play": -0.0296,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 29.9,
+   "forced_field_pos": 72.5,
+   "key_players": [
+    "J.Curtis",
+    "S.Alexander",
+    "M.Young"
+   ]
+  },
+  "2046": {
+   "plays": 46,
+   "success_rate": 0.1957,
+   "explosive_rate": 0.087,
+   "ypp": 3.6522,
+   "epa_per_play": -0.1268,
+   "adj_success_rate": -0.0988,
+   "adj_explosive_rate": -0.018,
+   "adj_ypp": -1.4965,
+   "adj_epa_per_play": 0.0059,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 26.0,
+   "forced_field_pos": 77.4,
+   "key_players": [
+    "C.Parson",
+    "C.Simmons",
+    "K.Williams"
+   ]
+  },
+  "8": {
+   "plays": 521,
+   "success_rate": 0.2879,
+   "explosive_rate": 0.0787,
+   "ypp": 4.9386,
+   "epa_per_play": -0.1292,
+   "adj_success_rate": -0.0341,
+   "adj_explosive_rate": -0.0366,
+   "adj_ypp": -0.7965,
+   "adj_epa_per_play": -0.0204,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 25.8,
+   "forced_field_pos": 69.0,
+   "key_players": [
+    "K.Jackson",
+    "C.Settles",
+    "S.Smith"
+   ]
+  },
+  "254": {
+   "plays": 736,
+   "success_rate": 0.3641,
+   "explosive_rate": 0.1223,
+   "ypp": 6.3274,
+   "epa_per_play": -0.0766,
+   "adj_success_rate": 0.0608,
+   "adj_explosive_rate": 0.0144,
+   "adj_ypp": 0.924,
+   "adj_epa_per_play": 0.0569,
+   "turnovers_lost_per_game": 1.09,
+   "field_pos_avg_start": 30.8,
+   "forced_field_pos": 72.4,
+   "key_players": [
+    "D.Dampier",
+    "W.Parker",
+    "D.Bray"
+   ]
+  },
+  "2572": {
+   "plays": 55,
+   "success_rate": 0.2182,
+   "explosive_rate": 0.0364,
+   "ypp": 3.5091,
+   "epa_per_play": -0.2773,
+   "adj_success_rate": -0.1031,
+   "adj_explosive_rate": -0.0967,
+   "adj_ypp": -2.1132,
+   "adj_epa_per_play": -0.1595,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 20.2,
+   "forced_field_pos": 70.9,
+   "key_players": [
+    "E.Hampton",
+    "S.Robinson",
+    "L.Lyddy"
+   ]
+  },
+  "2097": {
+   "plays": 61,
+   "success_rate": 0.1639,
+   "explosive_rate": 0.0656,
+   "ypp": 3.459,
+   "epa_per_play": -0.7465,
+   "adj_success_rate": -0.1644,
+   "adj_explosive_rate": -0.0434,
+   "adj_ypp": -2.2331,
+   "adj_epa_per_play": -0.6707,
+   "turnovers_lost_per_game": 4.0,
+   "field_pos_avg_start": 32.2,
+   "forced_field_pos": 71.4,
+   "key_players": [
+    "K.Sixkiller",
+    "G.Harvey",
+    "J.Cowan"
+   ]
+  },
+  "98": {
+   "plays": 276,
+   "success_rate": 0.2319,
+   "explosive_rate": 0.0688,
+   "ypp": 4.0471,
+   "epa_per_play": -0.1787,
+   "adj_success_rate": -0.1101,
+   "adj_explosive_rate": -0.061,
+   "adj_ypp": -2.3485,
+   "adj_epa_per_play": -0.1328,
+   "turnovers_lost_per_game": 0.75,
+   "field_pos_avg_start": 30.7,
+   "forced_field_pos": 70.4,
+   "key_players": [
+    "B.Glenn",
+    "A.Allen",
+    "R.Tisdale Jr."
+   ]
+  },
+  "2429": {
+   "plays": 60,
+   "success_rate": 0.25,
+   "explosive_rate": 0.1,
+   "ypp": 5.3667,
+   "epa_per_play": -0.2592,
+   "adj_success_rate": -0.1127,
+   "adj_explosive_rate": -0.038,
+   "adj_ypp": -1.0003,
+   "adj_epa_per_play": -0.1651,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 29.5,
+   "forced_field_pos": 70.4,
+   "key_players": [
+    "C.Gonzales",
+    "C.Williams",
+    "K.Alexander"
+   ]
+  },
+  "135": {
+   "plays": 672,
+   "success_rate": 0.2679,
+   "explosive_rate": 0.1086,
+   "ypp": 4.9122,
+   "epa_per_play": -0.1882,
+   "adj_success_rate": -0.0162,
+   "adj_explosive_rate": 0.0067,
+   "adj_ypp": -0.2609,
+   "adj_epa_per_play": -0.0265,
+   "turnovers_lost_per_game": 0.82,
+   "field_pos_avg_start": 32.9,
+   "forced_field_pos": 71.7,
+   "key_players": [
+    "D.Lindsey",
+    "D.Taylor",
+    "T.Thomas"
+   ]
+  },
+  "2305": {
+   "plays": 410,
+   "success_rate": 0.2829,
+   "explosive_rate": 0.1244,
+   "ypp": 5.5707,
+   "epa_per_play": -0.1914,
+   "adj_success_rate": -0.0329,
+   "adj_explosive_rate": 0.0082,
+   "adj_ypp": -0.1556,
+   "adj_epa_per_play": -0.0936,
+   "turnovers_lost_per_game": 1.83,
+   "field_pos_avg_start": 30.9,
+   "forced_field_pos": 68.9,
+   "key_players": [
+    "I.Marshall",
+    "D.Edwards",
+    "Y.Willis"
+   ]
+  },
+  "130": {
+   "plays": 648,
+   "success_rate": 0.2654,
+   "explosive_rate": 0.0926,
+   "ypp": 4.8272,
+   "epa_per_play": -0.2121,
+   "adj_success_rate": -0.0117,
+   "adj_explosive_rate": 0.0032,
+   "adj_ypp": -0.1652,
+   "adj_epa_per_play": -0.0341,
+   "turnovers_lost_per_game": 1.64,
+   "field_pos_avg_start": 29.5,
+   "forced_field_pos": 69.5,
+   "key_players": [
+    "B.Underwood",
+    "T.Carr",
+    "S.Hiter"
+   ]
+  },
+  "59": {
+   "plays": 690,
+   "success_rate": 0.3116,
+   "explosive_rate": 0.129,
+   "ypp": 5.771,
+   "epa_per_play": -0.1608,
+   "adj_success_rate": 0.0146,
+   "adj_explosive_rate": 0.0184,
+   "adj_ypp": 0.2982,
+   "adj_epa_per_play": -0.0276,
+   "turnovers_lost_per_game": 1.36,
+   "field_pos_avg_start": 27.4,
+   "forced_field_pos": 67.6,
+   "key_players": [
+    "A.Mendoza",
+    "J.Haynes",
+    "G.Adamson"
+   ]
+  },
+  "194": {
+   "plays": 730,
+   "success_rate": 0.3685,
+   "explosive_rate": 0.1384,
+   "ypp": 6.5795,
+   "epa_per_play": -0.0194,
+   "adj_success_rate": 0.0765,
+   "adj_explosive_rate": 0.0421,
+   "adj_ypp": 1.3946,
+   "adj_epa_per_play": 0.1197,
+   "turnovers_lost_per_game": 1.09,
+   "field_pos_avg_start": 29.3,
+   "forced_field_pos": 69.1,
+   "key_players": [
+    "J.Sayin",
+    "B.Jackson",
+    "L.Fahey"
+   ]
+  },
+  "9": {
+   "plays": 748,
+   "success_rate": 0.2981,
+   "explosive_rate": 0.0976,
+   "ypp": 5.3529,
+   "epa_per_play": -0.0913,
+   "adj_success_rate": 0.0072,
+   "adj_explosive_rate": -0.0029,
+   "adj_ypp": 0.0034,
+   "adj_epa_per_play": 0.067,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 29.5,
+   "forced_field_pos": 69.2,
+   "key_players": [
+    "C.Boley",
+    "J.Fette",
+    "C.Mack"
+   ]
+  },
+  "48": {
+   "plays": 195,
+   "success_rate": 0.3077,
+   "explosive_rate": 0.1128,
+   "ypp": 5.8821,
+   "epa_per_play": -0.1262,
+   "adj_success_rate": -0.0101,
+   "adj_explosive_rate": -0.0031,
+   "adj_ypp": 0.1153,
+   "adj_epa_per_play": -0.0508,
+   "turnovers_lost_per_game": 1.67,
+   "field_pos_avg_start": 30.8,
+   "forced_field_pos": 65.9,
+   "key_players": [
+    "N.Minicucci",
+    "J.Silver",
+    "E.Archield Jr."
+   ]
+  },
+  "52": {
+   "plays": 686,
+   "success_rate": 0.3134,
+   "explosive_rate": 0.1166,
+   "ypp": 5.7332,
+   "epa_per_play": -0.1811,
+   "adj_success_rate": 0.012,
+   "adj_explosive_rate": 0.009,
+   "adj_ypp": 0.4338,
+   "adj_epa_per_play": -0.0344,
+   "turnovers_lost_per_game": 1.55,
+   "field_pos_avg_start": 29.0,
+   "forced_field_pos": 70.7,
+   "key_players": [
+    "A.Daniels",
+    "O.Kromah",
+    "Q.Wisner"
+   ]
+  },
+  "99": {
+   "plays": 564,
+   "success_rate": 0.3298,
+   "explosive_rate": 0.1011,
+   "ypp": 5.4539,
+   "epa_per_play": -0.1294,
+   "adj_success_rate": 0.0079,
+   "adj_explosive_rate": -0.0157,
+   "adj_ypp": -0.2584,
+   "adj_epa_per_play": -0.0172,
+   "turnovers_lost_per_game": 1.5,
+   "field_pos_avg_start": 27.2,
+   "forced_field_pos": 67.7,
+   "key_players": [
+    "S.Leavitt",
+    "D.Jones",
+    "L.Clark"
+   ]
+  },
+  "2653": {
+   "plays": 69,
+   "success_rate": 0.2174,
+   "explosive_rate": 0.029,
+   "ypp": 3.6957,
+   "epa_per_play": -0.1777,
+   "adj_success_rate": -0.085,
+   "adj_explosive_rate": -0.0892,
+   "adj_ypp": -2.1285,
+   "adj_epa_per_play": -0.048,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 21.0,
+   "forced_field_pos": 59.0,
+   "key_players": [
+    "G.Crowder",
+    "G.Griffin",
+    "J.Merriweather"
+   ]
+  },
+  "167": {
+   "plays": 58,
+   "success_rate": 0.1724,
+   "explosive_rate": 0.0517,
+   "ypp": 3.1897,
+   "epa_per_play": -0.2575,
+   "adj_success_rate": -0.1069,
+   "adj_explosive_rate": -0.0332,
+   "adj_ypp": -2.031,
+   "adj_epa_per_play": -0.0775,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 40.2,
+   "forced_field_pos": 78.0,
+   "key_players": [
+    "T.Fa'avae",
+    "S.Humphrey",
+    "L.Moga"
+   ]
+  },
+  "2579": {
+   "plays": 523,
+   "success_rate": 0.3098,
+   "explosive_rate": 0.1205,
+   "ypp": 5.4799,
+   "epa_per_play": -0.1461,
+   "adj_success_rate": -0.0112,
+   "adj_explosive_rate": 0.0091,
+   "adj_ypp": -0.2748,
+   "adj_epa_per_play": -0.0371,
+   "turnovers_lost_per_game": 1.25,
+   "field_pos_avg_start": 27.5,
+   "forced_field_pos": 70.5,
+   "key_players": [
+    "L.Sellers",
+    "M.Fuller",
+    "J.Coleman"
+   ]
+  },
+  "338": {
+   "plays": 127,
+   "success_rate": 0.2992,
+   "explosive_rate": 0.0551,
+   "ypp": 4.7402,
+   "epa_per_play": -0.1789,
+   "adj_success_rate": 0.002,
+   "adj_explosive_rate": -0.0509,
+   "adj_ypp": -0.7922,
+   "adj_epa_per_play": -0.082,
+   "turnovers_lost_per_game": 0.5,
+   "field_pos_avg_start": 20.9,
+   "forced_field_pos": 66.7,
+   "key_players": [
+    "R.Collins",
+    "B.Woods III",
+    "L.Murrell"
+   ]
+  },
+  "2636": {
+   "plays": 117,
+   "success_rate": 0.2735,
+   "explosive_rate": 0.0855,
+   "ypp": 5.4359,
+   "epa_per_play": -0.1085,
+   "adj_success_rate": -0.0427,
+   "adj_explosive_rate": -0.0266,
+   "adj_ypp": -0.3733,
+   "adj_epa_per_play": -0.0221,
+   "turnovers_lost_per_game": 0.5,
+   "field_pos_avg_start": 32.8,
+   "forced_field_pos": 68.7,
+   "key_players": [
+    "O.McCown",
+    "W.Henderson III",
+    "B.High Jr."
+   ]
+  },
+  "152": {
+   "plays": 413,
+   "success_rate": 0.2978,
+   "explosive_rate": 0.1114,
+   "ypp": 5.276,
+   "epa_per_play": -0.0901,
+   "adj_success_rate": -0.0315,
+   "adj_explosive_rate": -0.0124,
+   "adj_ypp": -0.6503,
+   "adj_epa_per_play": 0.0071,
+   "turnovers_lost_per_game": 0.83,
+   "field_pos_avg_start": 26.7,
+   "forced_field_pos": 72.7,
+   "key_players": [
+    "C.Bailey",
+    "D.Gause",
+    "J.Scott"
+   ]
+  },
+  "2643": {
+   "plays": 57,
+   "success_rate": 0.193,
+   "explosive_rate": 0.0351,
+   "ypp": 3.4737,
+   "epa_per_play": -0.0975,
+   "adj_success_rate": -0.0984,
+   "adj_explosive_rate": -0.0583,
+   "adj_ypp": -1.5376,
+   "adj_epa_per_play": 0.0497,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.0,
+   "forced_field_pos": 70.4,
+   "key_players": [
+    "G.Garcia",
+    "X.Hill",
+    "N.Billoups"
+   ]
+  },
+  "236": {
+   "plays": 36,
+   "success_rate": 0.1389,
+   "explosive_rate": 0.0556,
+   "ypp": 2.3889,
+   "epa_per_play": -0.3266,
+   "adj_success_rate": -0.2086,
+   "adj_explosive_rate": -0.0779,
+   "adj_ypp": -3.7768,
+   "adj_epa_per_play": -0.2222,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 21.3,
+   "forced_field_pos": 69.0,
+   "key_players": [
+    "P.Awad",
+    "H.Bey-Buie",
+    "K.Lalin"
+   ]
+  },
+  "2535": {
+   "plays": 74,
+   "success_rate": 0.2838,
+   "explosive_rate": 0.1216,
+   "ypp": 4.2568,
+   "epa_per_play": -0.1481,
+   "adj_success_rate": -0.0375,
+   "adj_explosive_rate": -0.0114,
+   "adj_ypp": -1.3656,
+   "adj_epa_per_play": -0.0303,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 25.5,
+   "forced_field_pos": 66.5,
+   "key_players": [
+    "W.Shields",
+    "K.Cherry",
+    "D.Thomas"
+   ]
+  },
+  "2747": {
+   "plays": 49,
+   "success_rate": 0.1224,
+   "explosive_rate": 0.0408,
+   "ypp": 2.6531,
+   "epa_per_play": -0.4889,
+   "adj_success_rate": -0.2403,
+   "adj_explosive_rate": -0.0972,
+   "adj_ypp": -3.7139,
+   "adj_epa_per_play": -0.3947,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 27.2,
+   "forced_field_pos": 68.1,
+   "key_players": [
+    "E.Drumm",
+    "K.Gilstrap",
+    "G.Modest Jr."
+   ]
+  },
+  "2635": {
+   "plays": 70,
+   "success_rate": 0.2286,
+   "explosive_rate": 0.1,
+   "ypp": 4.5429,
+   "epa_per_play": -0.1829,
+   "adj_success_rate": -0.073,
+   "adj_explosive_rate": -0.008,
+   "adj_ypp": -1.0055,
+   "adj_epa_per_play": -0.0645,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 36.8,
+   "forced_field_pos": 69.7,
+   "key_players": [
+    "J.Leatherwood",
+    "M.Flowers",
+    "Z.Osborne"
+   ]
+  },
+  "70": {
+   "plays": 59,
+   "success_rate": 0.2542,
+   "explosive_rate": 0.0678,
+   "ypp": 3.5254,
+   "epa_per_play": -0.31,
+   "adj_success_rate": -0.1099,
+   "adj_explosive_rate": -0.0545,
+   "adj_ypp": -2.802,
+   "adj_epa_per_play": -0.2334,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 25.5,
+   "forced_field_pos": 58.8,
+   "key_players": [
+    "J.Wood",
+    "H.Kincheloe",
+    "I.Carter"
+   ]
+  },
+  "12": {
+   "plays": 747,
+   "success_rate": 0.3253,
+   "explosive_rate": 0.1098,
+   "ypp": 5.8005,
+   "epa_per_play": -0.0326,
+   "adj_success_rate": 0.0273,
+   "adj_explosive_rate": 0.0014,
+   "adj_ypp": 0.3762,
+   "adj_epa_per_play": 0.094,
+   "turnovers_lost_per_game": 0.73,
+   "field_pos_avg_start": 29.2,
+   "forced_field_pos": 71.2,
+   "key_players": [
+    "N.Fifita",
+    "K.Reescano",
+    "A.Roberts"
+   ]
+  },
+  "2464": {
+   "plays": 50,
+   "success_rate": 0.18,
+   "explosive_rate": 0.1,
+   "ypp": 3.86,
+   "epa_per_play": -0.1716,
+   "adj_success_rate": -0.1453,
+   "adj_explosive_rate": -0.0098,
+   "adj_ypp": -1.9405,
+   "adj_epa_per_play": -0.139,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 23.7,
+   "forced_field_pos": 64.9,
+   "key_players": [
+    "T.Pennington",
+    "Q.Gossett",
+    "D.Dixon"
+   ]
+  },
+  "2415": {
+   "plays": 49,
+   "success_rate": 0.2245,
+   "explosive_rate": 0.0408,
+   "ypp": 3.8367,
+   "epa_per_play": -0.2402,
+   "adj_success_rate": -0.0736,
+   "adj_explosive_rate": -0.0568,
+   "adj_ypp": -1.5162,
+   "adj_epa_per_play": -0.1489,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 25.0,
+   "forced_field_pos": 63.0,
+   "key_players": [
+    "C.Edge",
+    "A.Olanegan",
+    "K.Jenkins Jr."
+   ]
+  },
+  "252": {
+   "plays": 697,
+   "success_rate": 0.3357,
+   "explosive_rate": 0.1162,
+   "ypp": 5.8077,
+   "epa_per_play": -0.1162,
+   "adj_success_rate": 0.0358,
+   "adj_explosive_rate": 0.0095,
+   "adj_ypp": 0.362,
+   "adj_epa_per_play": 0.039,
+   "turnovers_lost_per_game": 1.09,
+   "field_pos_avg_start": 31.2,
+   "forced_field_pos": 70.9,
+   "key_players": [
+    "B.Bachmeier",
+    "L.Martin",
+    "P.Rex"
+   ]
+  },
+  "3101": {
+   "plays": 52,
+   "success_rate": 0.2115,
+   "explosive_rate": 0.0577,
+   "ypp": 3.4423,
+   "epa_per_play": -0.6795,
+   "adj_success_rate": -0.1242,
+   "adj_explosive_rate": -0.0585,
+   "adj_ypp": -2.3654,
+   "adj_epa_per_play": -0.5633,
+   "turnovers_lost_per_game": 4.0,
+   "field_pos_avg_start": 26.4,
+   "forced_field_pos": 60.7,
+   "key_players": [
+    "B.Barben",
+    "A.Chatman",
+    "C.Tiller"
+   ]
+  },
+  "38": {
+   "plays": 382,
+   "success_rate": 0.301,
+   "explosive_rate": 0.1073,
+   "ypp": 5.4503,
+   "epa_per_play": -0.1562,
+   "adj_success_rate": -0.0294,
+   "adj_explosive_rate": -0.0104,
+   "adj_ypp": -0.4766,
+   "adj_epa_per_play": -0.0838,
+   "turnovers_lost_per_game": 1.5,
+   "field_pos_avg_start": 26.3,
+   "forced_field_pos": 67.8,
+   "key_players": [
+    "I.Wilson",
+    "R.Young",
+    "J.Smith"
+   ]
+  },
+  "103": {
+   "plays": 667,
+   "success_rate": 0.2924,
+   "explosive_rate": 0.1229,
+   "ypp": 5.4528,
+   "epa_per_play": -0.1671,
+   "adj_success_rate": -0.0176,
+   "adj_explosive_rate": 0.0186,
+   "adj_ypp": -0.014,
+   "adj_epa_per_play": -0.0385,
+   "turnovers_lost_per_game": 1.36,
+   "field_pos_avg_start": 28.9,
+   "forced_field_pos": 68.6,
+   "key_players": [
+    "M.McKenzie",
+    "B.MacCormack III",
+    "E.Dickens"
+   ]
+  },
+  "2132": {
+   "plays": 724,
+   "success_rate": 0.3481,
+   "explosive_rate": 0.1202,
+   "ypp": 6.5649,
+   "epa_per_play": 0.0233,
+   "adj_success_rate": 0.0297,
+   "adj_explosive_rate": 0.0043,
+   "adj_ypp": 0.7488,
+   "adj_epa_per_play": 0.141,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 28.7,
+   "forced_field_pos": 73.6,
+   "key_players": [
+    "J.French IV",
+    "C.Tabb",
+    "G.Payne"
+   ]
+  },
+  "204": {
+   "plays": 219,
+   "success_rate": 0.4018,
+   "explosive_rate": 0.1324,
+   "ypp": 6.0228,
+   "epa_per_play": -0.0473,
+   "adj_success_rate": 0.0466,
+   "adj_explosive_rate": 0.0154,
+   "adj_ypp": -0.1188,
+   "adj_epa_per_play": -0.0225,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 23.5,
+   "forced_field_pos": 70.2,
+   "key_players": [
+    "B.Atkinson",
+    "M.Murphy",
+    "A.Newberry"
+   ]
+  },
+  "248": {
+   "plays": 761,
+   "success_rate": 0.3784,
+   "explosive_rate": 0.1209,
+   "ypp": 6.3929,
+   "epa_per_play": -0.003,
+   "adj_success_rate": 0.0722,
+   "adj_explosive_rate": 0.0145,
+   "adj_ypp": 0.7703,
+   "adj_epa_per_play": 0.1129,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 31.8,
+   "forced_field_pos": 75.3,
+   "key_players": [
+    "C.Weigman",
+    "M.Hughes",
+    "R.Sanford II"
+   ]
+  },
+  "277": {
+   "plays": 810,
+   "success_rate": 0.3123,
+   "explosive_rate": 0.1259,
+   "ypp": 5.8938,
+   "epa_per_play": -0.0473,
+   "adj_success_rate": 0.0018,
+   "adj_explosive_rate": 0.0141,
+   "adj_ypp": 0.1976,
+   "adj_epa_per_play": 0.0779,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 26.6,
+   "forced_field_pos": 70.9,
+   "key_players": [
+    "M.Hawkins Jr.",
+    "C.Cook",
+    "A.Latimer"
+   ]
+  },
+  "324": {
+   "plays": 123,
+   "success_rate": 0.2764,
+   "explosive_rate": 0.1382,
+   "ypp": 5.0244,
+   "epa_per_play": -0.1617,
+   "adj_success_rate": -0.0689,
+   "adj_explosive_rate": 0.0069,
+   "adj_ypp": -1.2731,
+   "adj_epa_per_play": -0.1411,
+   "turnovers_lost_per_game": 1.5,
+   "field_pos_avg_start": 28.5,
+   "forced_field_pos": 67.3,
+   "key_players": [
+    "D.Bailey",
+    "J.Edwards",
+    "D.Lee-Knicely"
+   ]
+  },
+  "2483": {
+   "plays": 749,
+   "success_rate": 0.3124,
+   "explosive_rate": 0.1215,
+   "ypp": 5.8398,
+   "epa_per_play": -0.1076,
+   "adj_success_rate": 0.0087,
+   "adj_explosive_rate": 0.014,
+   "adj_ypp": 0.3551,
+   "adj_epa_per_play": 0.0651,
+   "turnovers_lost_per_game": 0.91,
+   "field_pos_avg_start": 32.2,
+   "forced_field_pos": 72.6,
+   "key_players": [
+    "D.Raiola",
+    "D.Hill Jr",
+    "D.Moore"
+   ]
+  },
+  "197": {
+   "plays": 275,
+   "success_rate": 0.36,
+   "explosive_rate": 0.1236,
+   "ypp": 6.8982,
+   "epa_per_play": -0.122,
+   "adj_success_rate": 0.0347,
+   "adj_explosive_rate": 0.0072,
+   "adj_ypp": 1.0283,
+   "adj_epa_per_play": -0.0597,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 28.0,
+   "forced_field_pos": 72.4,
+   "key_players": [
+    "D.Mestemaker",
+    "C.Hawkins",
+    "A.Adeyi"
+   ]
+  },
+  "2504": {
+   "plays": 52,
+   "success_rate": 0.1154,
+   "explosive_rate": 0.0577,
+   "ypp": 2.2885,
+   "epa_per_play": -0.4838,
+   "adj_success_rate": -0.1669,
+   "adj_explosive_rate": -0.059,
+   "adj_ypp": -2.8634,
+   "adj_epa_per_play": -0.3578,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.8,
+   "forced_field_pos": 53.8,
+   "key_players": [
+    "T.Carter",
+    "N.Bennett",
+    "C.Knighten"
+   ]
+  },
+  "2717": {
+   "plays": 55,
+   "success_rate": 0.2364,
+   "explosive_rate": 0.0545,
+   "ypp": 4.3636,
+   "epa_per_play": -0.1872,
+   "adj_success_rate": -0.1117,
+   "adj_explosive_rate": -0.0656,
+   "adj_ypp": -2.2013,
+   "adj_epa_per_play": -0.2105,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 21.2,
+   "forced_field_pos": 65.7,
+   "key_players": [
+    "L.Thomas",
+    "J.Perry",
+    "M.Cochran"
+   ]
+  },
+  "2582": {
+   "plays": 39,
+   "success_rate": 0.0513,
+   "explosive_rate": 0.0,
+   "ypp": 1.5385,
+   "epa_per_play": -0.4979,
+   "adj_success_rate": -0.3272,
+   "adj_explosive_rate": -0.1209,
+   "adj_ypp": -4.8544,
+   "adj_epa_per_play": -0.4948,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 22.6,
+   "forced_field_pos": 51.4,
+   "key_players": [
+    "C.Johnson",
+    "J.Gabriel",
+    "A.Strother"
+   ]
+  },
+  "2294": {
+   "plays": 688,
+   "success_rate": 0.3256,
+   "explosive_rate": 0.0945,
+   "ypp": 5.782,
+   "epa_per_play": -0.1269,
+   "adj_success_rate": 0.0474,
+   "adj_explosive_rate": -0.0126,
+   "adj_ypp": 0.7178,
+   "adj_epa_per_play": 0.0397,
+   "turnovers_lost_per_game": 0.91,
+   "field_pos_avg_start": 31.0,
+   "forced_field_pos": 75.5,
+   "key_players": [
+    "H.Brown",
+    "L.Phillips Jr.",
+    "K.Moulton"
+   ]
+  },
+  "66": {
+   "plays": 462,
+   "success_rate": 0.2879,
+   "explosive_rate": 0.1169,
+   "ypp": 5.4524,
+   "epa_per_play": -0.1132,
+   "adj_success_rate": -0.0398,
+   "adj_explosive_rate": 0.0018,
+   "adj_ypp": -0.4517,
+   "adj_epa_per_play": -0.0414,
+   "turnovers_lost_per_game": 0.71,
+   "field_pos_avg_start": 25.1,
+   "forced_field_pos": 69.6,
+   "key_players": [
+    "J.Raynor",
+    "A.Flora",
+    "C.Moberly"
+   ]
+  },
+  "2630": {
+   "plays": 68,
+   "success_rate": 0.2794,
+   "explosive_rate": 0.0441,
+   "ypp": 4.6618,
+   "epa_per_play": -0.2765,
+   "adj_success_rate": -0.0329,
+   "adj_explosive_rate": -0.0818,
+   "adj_ypp": -1.2321,
+   "adj_epa_per_play": -0.2292,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 26.3,
+   "forced_field_pos": 70.8,
+   "key_players": [
+    "T.Surber",
+    "C.Franklin",
+    "T.Ansley"
+   ]
+  },
+  "2459": {
+   "plays": 120,
+   "success_rate": 0.2167,
+   "explosive_rate": 0.0667,
+   "ypp": 3.3833,
+   "epa_per_play": -0.2625,
+   "adj_success_rate": -0.1088,
+   "adj_explosive_rate": -0.0355,
+   "adj_ypp": -2.4079,
+   "adj_epa_per_play": -0.1828,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 25.5,
+   "forced_field_pos": 67.0,
+   "key_players": [
+    "T.Dickens",
+    "T.Johnson Jr.",
+    "J.Macon"
+   ]
+  },
+  "36": {
+   "plays": 723,
+   "success_rate": 0.3223,
+   "explosive_rate": 0.1189,
+   "ypp": 6.1604,
+   "epa_per_play": -0.0524,
+   "adj_success_rate": -0.0059,
+   "adj_explosive_rate": 0.0029,
+   "adj_ypp": 0.4748,
+   "adj_epa_per_play": 0.1003,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 29.3,
+   "forced_field_pos": 69.6,
+   "key_players": [
+    "H.Hejny",
+    "K.Farrar",
+    "D.Robinson"
+   ]
+  },
+  "193": {
+   "plays": 51,
+   "success_rate": 0.3922,
+   "explosive_rate": 0.1765,
+   "ypp": 7.2353,
+   "epa_per_play": -0.2077,
+   "adj_success_rate": 0.0441,
+   "adj_explosive_rate": 0.0563,
+   "adj_ypp": 0.6704,
+   "adj_epa_per_play": -0.231,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.3,
+   "forced_field_pos": 68.5,
+   "key_players": [
+    "D.McComb",
+    "D.Jones",
+    "R.Nelson"
+   ]
+  },
+  "328": {
+   "plays": 227,
+   "success_rate": 0.2511,
+   "explosive_rate": 0.1189,
+   "ypp": 4.9692,
+   "epa_per_play": -0.1857,
+   "adj_success_rate": -0.0885,
+   "adj_explosive_rate": -0.0028,
+   "adj_ypp": -1.0213,
+   "adj_epa_per_play": -0.1114,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.0,
+   "forced_field_pos": 74.0,
+   "key_players": [
+    "G.Brosterhous",
+    "M.Hillstead",
+    "J.Jacobs"
+   ]
+  },
+  "258": {
+   "plays": 331,
+   "success_rate": 0.2628,
+   "explosive_rate": 0.0876,
+   "ypp": 4.5378,
+   "epa_per_play": -0.136,
+   "adj_success_rate": -0.0642,
+   "adj_explosive_rate": -0.0369,
+   "adj_ypp": -1.3874,
+   "adj_epa_per_play": -0.0471,
+   "turnovers_lost_per_game": 0.6,
+   "field_pos_avg_start": 27.3,
+   "forced_field_pos": 72.6,
+   "key_players": [
+    "B.Pribula",
+    "J.Middlebrook",
+    "X.Davis"
+   ]
+  },
+  "265": {
+   "plays": 267,
+   "success_rate": 0.3371,
+   "explosive_rate": 0.1011,
+   "ypp": 5.8052,
+   "epa_per_play": -0.0721,
+   "adj_success_rate": 0.0072,
+   "adj_explosive_rate": -0.0175,
+   "adj_ypp": -0.0535,
+   "adj_epa_per_play": -0.0087,
+   "turnovers_lost_per_game": 1.25,
+   "field_pos_avg_start": 28.7,
+   "forced_field_pos": 71.1,
+   "key_players": [
+    "O.Eshelman",
+    "C.Pinnick",
+    "K.Vorhees"
+   ]
+  },
+  "290": {
+   "plays": 64,
+   "success_rate": 0.3438,
+   "explosive_rate": 0.125,
+   "ypp": 6.1875,
+   "epa_per_play": 0.0548,
+   "adj_success_rate": -0.0347,
+   "adj_explosive_rate": 0.0041,
+   "adj_ypp": -0.2054,
+   "adj_epa_per_play": 0.0579,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 25.1,
+   "forced_field_pos": 63.9,
+   "key_players": [
+    "M.Johnson",
+    "W.Bryan",
+    "D.Mbadinga"
+   ]
+  },
+  "62": {
+   "plays": 72,
+   "success_rate": 0.2361,
+   "explosive_rate": 0.0694,
+   "ypp": 4.1528,
+   "epa_per_play": -0.2355,
+   "adj_success_rate": -0.062,
+   "adj_explosive_rate": -0.0281,
+   "adj_ypp": -1.2002,
+   "adj_epa_per_play": -0.1442,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 26.4,
+   "forced_field_pos": 75.8,
+   "key_players": [
+    "M.Alejado",
+    "C.Barfield",
+    "D.Rice"
+   ]
+  },
+  "87": {
+   "plays": 737,
+   "success_rate": 0.365,
+   "explosive_rate": 0.1072,
+   "ypp": 6.3229,
+   "epa_per_play": 0.0128,
+   "adj_success_rate": 0.0731,
+   "adj_explosive_rate": 0.0099,
+   "adj_ypp": 1.21,
+   "adj_epa_per_play": 0.1701,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 29.8,
+   "forced_field_pos": 73.6,
+   "key_players": [
+    "C.Carr",
+    "N.James Jr.",
+    "J.Walton"
+   ]
+  },
+  "2641": {
+   "plays": 409,
+   "success_rate": 0.3301,
+   "explosive_rate": 0.1394,
+   "ypp": 6.7897,
+   "epa_per_play": -0.1104,
+   "adj_success_rate": 0.006,
+   "adj_explosive_rate": 0.0242,
+   "adj_ypp": 0.9302,
+   "adj_epa_per_play": -0.0643,
+   "turnovers_lost_per_game": 1.67,
+   "field_pos_avg_start": 32.0,
+   "forced_field_pos": 73.6,
+   "key_players": [
+    "T.Castellanos",
+    "W.Hammond",
+    "J.Williams"
+   ]
+  },
+  "2306": {
+   "plays": 270,
+   "success_rate": 0.2815,
+   "explosive_rate": 0.0778,
+   "ypp": 4.8185,
+   "epa_per_play": -0.1929,
+   "adj_success_rate": -0.056,
+   "adj_explosive_rate": -0.0343,
+   "adj_ypp": -1.2093,
+   "adj_epa_per_play": -0.167,
+   "turnovers_lost_per_game": 0.75,
+   "field_pos_avg_start": 28.3,
+   "forced_field_pos": 70.0,
+   "key_players": [
+    "A.Johnson",
+    "R.Fields Jr.",
+    "J.Knuth"
+   ]
+  },
+  "2628": {
+   "plays": 313,
+   "success_rate": 0.2843,
+   "explosive_rate": 0.1054,
+   "ypp": 4.9649,
+   "epa_per_play": -0.2538,
+   "adj_success_rate": -0.0396,
+   "adj_explosive_rate": -0.0127,
+   "adj_ypp": -0.8314,
+   "adj_epa_per_play": -0.1741,
+   "turnovers_lost_per_game": 1.2,
+   "field_pos_avg_start": 28.6,
+   "forced_field_pos": 71.6,
+   "key_players": [
+    "J.Craig",
+    "A.Schobel",
+    "J.Denman"
+   ]
+  },
+  "2116": {
+   "plays": 258,
+   "success_rate": 0.2752,
+   "explosive_rate": 0.0969,
+   "ypp": 5.3566,
+   "epa_per_play": -0.1034,
+   "adj_success_rate": -0.0485,
+   "adj_explosive_rate": -0.0159,
+   "adj_ypp": -0.3198,
+   "adj_epa_per_play": -0.0192,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 27.1,
+   "forced_field_pos": 64.1,
+   "key_players": [
+    "K.Jenkins",
+    "A.Barnett III",
+    "D.Watson"
+   ]
+  },
+  "154": {
+   "plays": 723,
+   "success_rate": 0.3804,
+   "explosive_rate": 0.1508,
+   "ypp": 6.9461,
+   "epa_per_play": -0.001,
+   "adj_success_rate": 0.0924,
+   "adj_explosive_rate": 0.0485,
+   "adj_ypp": 1.7911,
+   "adj_epa_per_play": 0.1557,
+   "turnovers_lost_per_game": 0.36,
+   "field_pos_avg_start": 31.6,
+   "forced_field_pos": 73.6,
+   "key_players": [
+    "G.Lopez",
+    "T.Clark",
+    "D.Lawrence"
+   ]
+  },
+  "2006": {
+   "plays": 126,
+   "success_rate": 0.2778,
+   "explosive_rate": 0.0794,
+   "ypp": 4.3175,
+   "epa_per_play": -0.2768,
+   "adj_success_rate": -0.0463,
+   "adj_explosive_rate": -0.0503,
+   "adj_ypp": -1.6117,
+   "adj_epa_per_play": -0.1822,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 23.0,
+   "forced_field_pos": 64.0,
+   "key_players": [
+    "C.Broughton",
+    "B.Roggow",
+    "S.Patrick"
+   ]
+  },
+  "24": {
+   "plays": 367,
+   "success_rate": 0.2316,
+   "explosive_rate": 0.0763,
+   "ypp": 4.4033,
+   "epa_per_play": -0.1609,
+   "adj_success_rate": -0.1228,
+   "adj_explosive_rate": -0.0549,
+   "adj_ypp": -2.0174,
+   "adj_epa_per_play": -0.1202,
+   "turnovers_lost_per_game": 0.67,
+   "field_pos_avg_start": 26.5,
+   "forced_field_pos": 67.6,
+   "key_players": [
+    "D.Warren",
+    "M.Ford",
+    "S.Irvin"
+   ]
+  },
+  "2390": {
+   "plays": 762,
+   "success_rate": 0.399,
+   "explosive_rate": 0.1378,
+   "ypp": 6.9816,
+   "epa_per_play": 0.0416,
+   "adj_success_rate": 0.1206,
+   "adj_explosive_rate": 0.0424,
+   "adj_ypp": 1.9528,
+   "adj_epa_per_play": 0.2153,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 29.0,
+   "forced_field_pos": 71.6,
+   "key_players": [
+    "D.Mensah",
+    "M.Fletcher Jr.",
+    "J.Mallory"
+   ]
+  },
+  "183": {
+   "plays": 851,
+   "success_rate": 0.3173,
+   "explosive_rate": 0.1081,
+   "ypp": 5.228,
+   "epa_per_play": -0.132,
+   "adj_success_rate": 0.0241,
+   "adj_explosive_rate": -0.0007,
+   "adj_ypp": -0.0702,
+   "adj_epa_per_play": 0.008,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.1,
+   "forced_field_pos": 72.5,
+   "key_players": [
+    "S.Angeli",
+    "A.Miller",
+    "T.Hill"
+   ]
+  },
+  "160": {
+   "plays": 56,
+   "success_rate": 0.1964,
+   "explosive_rate": 0.0714,
+   "ypp": 4.0357,
+   "epa_per_play": -0.267,
+   "adj_success_rate": -0.1208,
+   "adj_explosive_rate": -0.0367,
+   "adj_ypp": -1.1923,
+   "adj_epa_per_play": -0.135,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 20.2,
+   "forced_field_pos": 53.5,
+   "key_players": [
+    "B.Bentley",
+    "M.Thomason",
+    "J.Smith"
+   ]
+  },
+  "150": {
+   "plays": 718,
+   "success_rate": 0.312,
+   "explosive_rate": 0.1212,
+   "ypp": 5.8245,
+   "epa_per_play": -0.083,
+   "adj_success_rate": 0.0304,
+   "adj_explosive_rate": 0.017,
+   "adj_ypp": 0.7159,
+   "adj_epa_per_play": 0.0654,
+   "turnovers_lost_per_game": 0.64,
+   "field_pos_avg_start": 29.2,
+   "forced_field_pos": 74.4,
+   "key_players": [
+    "W.Eget",
+    "N.Sheppard",
+    "C.Campbell Jr."
+   ]
+  },
+  "2655": {
+   "plays": 53,
+   "success_rate": 0.2075,
+   "explosive_rate": 0.0755,
+   "ypp": 4.3396,
+   "epa_per_play": -0.3034,
+   "adj_success_rate": -0.1044,
+   "adj_explosive_rate": -0.0457,
+   "adj_ypp": -1.4849,
+   "adj_epa_per_play": -0.2204,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 25.1,
+   "forced_field_pos": 67.2,
+   "key_players": [
+    "K.Semonza",
+    "Z.Chriss-Gremillion",
+    "J.Daniels"
+   ]
+  },
+  "25": {
+   "plays": 215,
+   "success_rate": 0.2558,
+   "explosive_rate": 0.0744,
+   "ypp": 4.4605,
+   "epa_per_play": -0.1558,
+   "adj_success_rate": -0.0794,
+   "adj_explosive_rate": -0.0495,
+   "adj_ypp": -1.5189,
+   "adj_epa_per_play": -0.0472,
+   "turnovers_lost_per_game": 0.67,
+   "field_pos_avg_start": 25.3,
+   "forced_field_pos": 69.4,
+   "key_players": [
+    "J.Sagapolutele",
+    "A.Mohammed",
+    "J.Brousseau"
+   ]
+  },
+  "26": {
+   "plays": 708,
+   "success_rate": 0.3079,
+   "explosive_rate": 0.113,
+   "ypp": 5.7641,
+   "epa_per_play": -0.193,
+   "adj_success_rate": 0.0366,
+   "adj_explosive_rate": 0.0213,
+   "adj_ypp": 0.9556,
+   "adj_epa_per_play": 0.0091,
+   "turnovers_lost_per_game": 1.55,
+   "field_pos_avg_start": 34.7,
+   "forced_field_pos": 72.8,
+   "key_players": [
+    "T.Dieffenbach",
+    "W.Knight",
+    "N.Iamaleava"
+   ]
+  },
+  "2567": {
+   "plays": 471,
+   "success_rate": 0.3142,
+   "explosive_rate": 0.1146,
+   "ypp": 5.5202,
+   "epa_per_play": -0.2093,
+   "adj_success_rate": -0.0154,
+   "adj_explosive_rate": -0.0072,
+   "adj_ypp": -0.4529,
+   "adj_epa_per_play": -0.1206,
+   "turnovers_lost_per_game": 1.71,
+   "field_pos_avg_start": 29.6,
+   "forced_field_pos": 73.2,
+   "key_players": [
+    "K.Jennings",
+    "K.Raphael",
+    "D.Green"
+   ]
+  },
+  "50": {
+   "plays": 46,
+   "success_rate": 0.087,
+   "explosive_rate": 0.0217,
+   "ypp": 2.5,
+   "epa_per_play": -0.4832,
+   "adj_success_rate": -0.312,
+   "adj_explosive_rate": -0.1161,
+   "adj_ypp": -4.4816,
+   "adj_epa_per_play": -0.5248,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 23.2,
+   "forced_field_pos": 65.9,
+   "key_players": [
+    "D.Fletcher",
+    "A.Parker",
+    "C.Gillespie"
+   ]
+  },
+  "164": {
+   "plays": 331,
+   "success_rate": 0.2779,
+   "explosive_rate": 0.0967,
+   "ypp": 5.0332,
+   "epa_per_play": -0.1855,
+   "adj_success_rate": -0.036,
+   "adj_explosive_rate": -0.0183,
+   "adj_ypp": -0.6636,
+   "adj_epa_per_play": -0.092,
+   "turnovers_lost_per_game": 1.17,
+   "field_pos_avg_start": 27.0,
+   "forced_field_pos": 69.9,
+   "key_players": [
+    "A.Raymond",
+    "A.Surace",
+    "D.Lonergan"
+   ]
+  },
+  "222": {
+   "plays": 60,
+   "success_rate": 0.2333,
+   "explosive_rate": 0.05,
+   "ypp": 3.7667,
+   "epa_per_play": -0.2798,
+   "adj_success_rate": -0.1249,
+   "adj_explosive_rate": -0.091,
+   "adj_ypp": -2.911,
+   "adj_epa_per_play": -0.2263,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 26.8,
+   "forced_field_pos": 67.9,
+   "key_players": [
+    "P.McQuaide",
+    "I.Ragland",
+    "B.Way Jr."
+   ]
+  },
+  "356": {
+   "plays": 440,
+   "success_rate": 0.3,
+   "explosive_rate": 0.1227,
+   "ypp": 5.5568,
+   "epa_per_play": -0.0897,
+   "adj_success_rate": -0.0258,
+   "adj_explosive_rate": 0.0071,
+   "adj_ypp": -0.3293,
+   "adj_epa_per_play": -0.0022,
+   "turnovers_lost_per_game": 0.86,
+   "field_pos_avg_start": 25.9,
+   "forced_field_pos": 71.5,
+   "key_players": [
+    "K.Houser",
+    "A.Laughery",
+    "J.Anderson"
+   ]
+  },
+  "2509": {
+   "plays": 702,
+   "success_rate": 0.3177,
+   "explosive_rate": 0.1168,
+   "ypp": 5.7023,
+   "epa_per_play": -0.0831,
+   "adj_success_rate": 0.0119,
+   "adj_explosive_rate": 0.0016,
+   "adj_ypp": 0.0927,
+   "adj_epa_per_play": 0.0467,
+   "turnovers_lost_per_game": 0.91,
+   "field_pos_avg_start": 28.3,
+   "forced_field_pos": 71.6,
+   "key_players": [
+    "R.Browne",
+    "F.Ijeboi",
+    "A.Harris"
+   ]
+  },
+  "221": {
+   "plays": 385,
+   "success_rate": 0.2805,
+   "explosive_rate": 0.0883,
+   "ypp": 4.8156,
+   "epa_per_play": -0.2426,
+   "adj_success_rate": -0.0515,
+   "adj_explosive_rate": -0.0376,
+   "adj_ypp": -1.1585,
+   "adj_epa_per_play": -0.1338,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 29.8,
+   "forced_field_pos": 68.4,
+   "key_players": [
+    "H.Geriner",
+    "D.Ferguson Jr.",
+    "C.Dailey"
+   ]
+  },
+  "311": {
+   "plays": 64,
+   "success_rate": 0.2969,
+   "explosive_rate": 0.0625,
+   "ypp": 4.6875,
+   "epa_per_play": -0.1473,
+   "adj_success_rate": 0.0045,
+   "adj_explosive_rate": -0.0604,
+   "adj_ypp": -0.7653,
+   "adj_epa_per_play": 0.0198,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 23.4,
+   "forced_field_pos": 56.5,
+   "key_players": [
+    "E.Buehler",
+    "R.Marshall",
+    "N.Laughlin"
+   ]
+  },
+  "2382": {
+   "plays": 56,
+   "success_rate": 0.2679,
+   "explosive_rate": 0.125,
+   "ypp": 5.7679,
+   "epa_per_play": -0.159,
+   "adj_success_rate": -0.0437,
+   "adj_explosive_rate": -0.004,
+   "adj_ypp": -0.0032,
+   "adj_epa_per_play": 0.0018,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 24.2,
+   "forced_field_pos": 63.3,
+   "key_players": [
+    "J.Pickles",
+    "Z.Palode-Gary",
+    "J.King"
+   ]
+  },
+  "2110": {
+   "plays": 72,
+   "success_rate": 0.2361,
+   "explosive_rate": 0.0417,
+   "ypp": 3.5278,
+   "epa_per_play": -0.1775,
+   "adj_success_rate": -0.0773,
+   "adj_explosive_rate": -0.075,
+   "adj_ypp": -2.2055,
+   "adj_epa_per_play": 0.0036,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 22.1,
+   "forced_field_pos": 69.1,
+   "key_players": [
+    "D.Omolo",
+    "J.Washington",
+    "C.McKown"
+   ]
+  },
+  "2117": {
+   "plays": 48,
+   "success_rate": 0.2083,
+   "explosive_rate": 0.0625,
+   "ypp": 3.8542,
+   "epa_per_play": -0.3453,
+   "adj_success_rate": -0.1906,
+   "adj_explosive_rate": -0.0753,
+   "adj_ypp": -3.1275,
+   "adj_epa_per_play": -0.3869,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 25.4,
+   "forced_field_pos": 64.6,
+   "key_players": [
+    "J.Glasser",
+    "A.Flores",
+    "J.Clerveaux"
+   ]
+  },
+  "259": {
+   "plays": 191,
+   "success_rate": 0.2723,
+   "explosive_rate": 0.0838,
+   "ypp": 4.6335,
+   "epa_per_play": -0.1091,
+   "adj_success_rate": -0.062,
+   "adj_explosive_rate": -0.0461,
+   "adj_ypp": -1.435,
+   "adj_epa_per_play": -0.0137,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 34.0,
+   "forced_field_pos": 71.7,
+   "key_players": [
+    "E.Grunkemeyer",
+    "J.Overton, Jr.",
+    "M.Hawkins, Jr."
+   ]
+  },
+  "2729": {
+   "plays": 49,
+   "success_rate": 0.1837,
+   "explosive_rate": 0.0612,
+   "ypp": 3.5918,
+   "epa_per_play": -0.249,
+   "adj_success_rate": -0.1283,
+   "adj_explosive_rate": -0.0599,
+   "adj_ypp": -2.2327,
+   "adj_epa_per_play": -0.166,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.5,
+   "forced_field_pos": 66.8,
+   "key_players": [
+    "W.Watkins",
+    "J.Miller",
+    "B.Smalls"
+   ]
+  },
+  "228": {
+   "plays": 351,
+   "success_rate": 0.2564,
+   "explosive_rate": 0.094,
+   "ypp": 4.6154,
+   "epa_per_play": -0.239,
+   "adj_success_rate": -0.0742,
+   "adj_explosive_rate": -0.0285,
+   "adj_ypp": -1.2923,
+   "adj_epa_per_play": -0.1359,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 30.3,
+   "forced_field_pos": 75.1,
+   "key_players": [
+    "T.Reynolds",
+    "J.Green",
+    "T.Pearman"
+   ]
+  },
+  "153": {
+   "plays": 299,
+   "success_rate": 0.3545,
+   "explosive_rate": 0.1271,
+   "ypp": 5.6689,
+   "epa_per_play": -0.0778,
+   "adj_success_rate": 0.0042,
+   "adj_explosive_rate": 0.004,
+   "adj_ypp": -0.5381,
+   "adj_epa_per_play": -0.035,
+   "turnovers_lost_per_game": 1.4,
+   "field_pos_avg_start": 25.8,
+   "forced_field_pos": 66.2,
+   "key_players": [
+    "B.Edwards Jr.",
+    "D.June",
+    "J.McGill"
+   ]
+  },
+  "41": {
+   "plays": 73,
+   "success_rate": 0.3562,
+   "explosive_rate": 0.1644,
+   "ypp": 7.2192,
+   "epa_per_play": 0.0984,
+   "adj_success_rate": 0.0389,
+   "adj_explosive_rate": 0.0563,
+   "adj_ypp": 1.9912,
+   "adj_epa_per_play": 0.2304,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 33.2,
+   "forced_field_pos": 63.1,
+   "key_players": [
+    "K.Osborne",
+    "C.Bowers",
+    "T.Cornist"
+   ]
+  },
+  "2771": {
+   "plays": 71,
+   "success_rate": 0.1408,
+   "explosive_rate": 0.0563,
+   "ypp": 3.0563,
+   "epa_per_play": -0.4397,
+   "adj_success_rate": -0.2395,
+   "adj_explosive_rate": -0.0944,
+   "adj_ypp": -3.8897,
+   "adj_epa_per_play": -0.4387,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 28.8,
+   "forced_field_pos": 73.5,
+   "key_players": [
+    "A.Hairston",
+    "C.Meehan",
+    "D.McElroy"
+   ]
+  },
+  "2197": {
+   "plays": 42,
+   "success_rate": 0.0952,
+   "explosive_rate": 0.0476,
+   "ypp": 2.5,
+   "epa_per_play": -0.354,
+   "adj_success_rate": -0.1726,
+   "adj_explosive_rate": -0.061,
+   "adj_ypp": -2.4122,
+   "adj_epa_per_play": -0.1657,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 20.5,
+   "forced_field_pos": 60.4,
+   "key_players": [
+    "C.LaCrue",
+    "C.Kellom",
+    "T.Buggs"
+   ]
+  },
+  "84": {
+   "plays": 663,
+   "success_rate": 0.3303,
+   "explosive_rate": 0.1373,
+   "ypp": 6.5566,
+   "epa_per_play": -0.0393,
+   "adj_success_rate": 0.0484,
+   "adj_explosive_rate": 0.0357,
+   "adj_ypp": 1.5421,
+   "adj_epa_per_play": 0.1127,
+   "turnovers_lost_per_game": 0.45,
+   "field_pos_avg_start": 31.9,
+   "forced_field_pos": 72.4,
+   "key_players": [
+    "J.Hoover",
+    "L.Beebe Jr.",
+    "T.Richard"
+   ]
+  },
+  "249": {
+   "plays": 66,
+   "success_rate": 0.2879,
+   "explosive_rate": 0.1212,
+   "ypp": 5.6515,
+   "epa_per_play": -0.1291,
+   "adj_success_rate": -0.0424,
+   "adj_explosive_rate": -0.016,
+   "adj_ypp": -0.905,
+   "adj_epa_per_play": -0.0898,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 25.5,
+   "forced_field_pos": 50.9,
+   "key_players": [
+    "T.Jackson",
+    "J.White",
+    "N.Osho"
+   ]
+  },
+  "2711": {
+   "plays": 115,
+   "success_rate": 0.2261,
+   "explosive_rate": 0.0522,
+   "ypp": 3.9304,
+   "epa_per_play": -0.1952,
+   "adj_success_rate": -0.0892,
+   "adj_explosive_rate": -0.0497,
+   "adj_ypp": -1.419,
+   "adj_epa_per_play": -0.0797,
+   "turnovers_lost_per_game": 0.5,
+   "field_pos_avg_start": 33.0,
+   "forced_field_pos": 77.2,
+   "key_players": [
+    "B.Lowry",
+    "J.Buckley",
+    "O.Mataele"
+   ]
+  },
+  "195": {
+   "plays": 64,
+   "success_rate": 0.25,
+   "explosive_rate": 0.0625,
+   "ypp": 4.6562,
+   "epa_per_play": -0.2641,
+   "adj_success_rate": -0.0868,
+   "adj_explosive_rate": -0.0416,
+   "adj_ypp": -1.0545,
+   "adj_epa_per_play": -0.2645,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 28.6,
+   "forced_field_pos": 70.0,
+   "key_players": [
+    "N.Poulos",
+    "D.Brune",
+    "V.Rosa"
+   ]
+  },
+  "158": {
+   "plays": 778,
+   "success_rate": 0.3368,
+   "explosive_rate": 0.1041,
+   "ypp": 5.7108,
+   "epa_per_play": 0.0004,
+   "adj_success_rate": 0.0578,
+   "adj_explosive_rate": 0.0043,
+   "adj_ypp": 0.6772,
+   "adj_epa_per_play": 0.1783,
+   "turnovers_lost_per_game": 0.55,
+   "field_pos_avg_start": 28.8,
+   "forced_field_pos": 72.2,
+   "key_players": [
+    "A.Colandrea",
+    "J.Rule",
+    "M.Nelson"
+   ]
+  },
+  "2050": {
+   "plays": 114,
+   "success_rate": 0.2632,
+   "explosive_rate": 0.0526,
+   "ypp": 3.7018,
+   "epa_per_play": -0.2258,
+   "adj_success_rate": -0.1103,
+   "adj_explosive_rate": -0.0849,
+   "adj_ypp": -2.9385,
+   "adj_epa_per_play": -0.2191,
+   "turnovers_lost_per_game": 0.5,
+   "field_pos_avg_start": 29.1,
+   "forced_field_pos": 69.5,
+   "key_players": [
+    "K.Luster",
+    "T.Horton",
+    "J.Thompson Jr."
+   ]
+  },
+  "68": {
+   "plays": 756,
+   "success_rate": 0.3651,
+   "explosive_rate": 0.1111,
+   "ypp": 5.8717,
+   "epa_per_play": -0.0189,
+   "adj_success_rate": 0.0649,
+   "adj_explosive_rate": -0.0011,
+   "adj_ypp": 0.3552,
+   "adj_epa_per_play": 0.1216,
+   "turnovers_lost_per_game": 0.64,
+   "field_pos_avg_start": 26.8,
+   "forced_field_pos": 72.2,
+   "key_players": [
+    "M.Madsen",
+    "D.Riley",
+    "S.Gaines"
+   ]
+  },
+  "282": {
+   "plays": 43,
+   "success_rate": 0.2558,
+   "explosive_rate": 0.1628,
+   "ypp": 5.9767,
+   "epa_per_play": -0.1613,
+   "adj_success_rate": -0.0618,
+   "adj_explosive_rate": 0.046,
+   "adj_ypp": 0.2745,
+   "adj_epa_per_play": -0.0782,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 28.8,
+   "forced_field_pos": 73.0,
+   "key_players": [
+    "E.Owens",
+    "M.McCool",
+    "A.Ball"
+   ]
+  },
+  "30": {
+   "plays": 735,
+   "success_rate": 0.3633,
+   "explosive_rate": 0.1184,
+   "ypp": 6.1088,
+   "epa_per_play": -0.0344,
+   "adj_success_rate": 0.0499,
+   "adj_explosive_rate": 0.0035,
+   "adj_ypp": 0.3841,
+   "adj_epa_per_play": 0.0803,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 29.1,
+   "forced_field_pos": 72.7,
+   "key_players": [
+    "J.Maiava",
+    "K.Miller",
+    "W.Jordan"
+   ]
+  },
+  "278": {
+   "plays": 142,
+   "success_rate": 0.3239,
+   "explosive_rate": 0.1338,
+   "ypp": 6.3803,
+   "epa_per_play": -0.0073,
+   "adj_success_rate": -0.0263,
+   "adj_explosive_rate": 0.0177,
+   "adj_ypp": 0.3333,
+   "adj_epa_per_play": 0.028,
+   "turnovers_lost_per_game": 0.67,
+   "field_pos_avg_start": 27.1,
+   "forced_field_pos": 74.9,
+   "key_players": [
+    "J.Mandal",
+    "B.Donelson",
+    "R.Luke"
+   ]
+  },
+  "264": {
+   "plays": 684,
+   "success_rate": 0.307,
+   "explosive_rate": 0.1345,
+   "ypp": 5.6023,
+   "epa_per_play": -0.1493,
+   "adj_success_rate": 0.0073,
+   "adj_explosive_rate": 0.031,
+   "adj_ypp": 0.289,
+   "adj_epa_per_play": -0.0315,
+   "turnovers_lost_per_game": 0.82,
+   "field_pos_avg_start": 27.1,
+   "forced_field_pos": 71.3,
+   "key_players": [
+    "D.Williams Jr.",
+    "E.Brown",
+    "B.Bonner"
+   ]
+  },
+  "275": {
+   "plays": 619,
+   "success_rate": 0.2956,
+   "explosive_rate": 0.1147,
+   "ypp": 5.525,
+   "epa_per_play": -0.1087,
+   "adj_success_rate": 0.0027,
+   "adj_explosive_rate": 0.024,
+   "adj_ypp": 0.3619,
+   "adj_epa_per_play": 0.0601,
+   "turnovers_lost_per_game": 0.82,
+   "field_pos_avg_start": 30.0,
+   "forced_field_pos": 72.6,
+   "key_players": [
+    "C.Joseph",
+    "D.Dupree",
+    "R.Hopkins"
+   ]
+  },
+  "47": {
+   "plays": 45,
+   "success_rate": 0.0889,
+   "explosive_rate": 0.0222,
+   "ypp": 1.4667,
+   "epa_per_play": -0.4647,
+   "adj_success_rate": -0.2414,
+   "adj_explosive_rate": -0.115,
+   "adj_ypp": -5.0899,
+   "adj_epa_per_play": -0.4254,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 28.2,
+   "forced_field_pos": 67.2,
+   "key_players": [
+    "J.Scroggins",
+    "I.Freeman",
+    "B.Roberson II"
+   ]
+  },
+  "189": {
+   "plays": 45,
+   "success_rate": 0.2222,
+   "explosive_rate": 0.0444,
+   "ypp": 3.5556,
+   "epa_per_play": -0.309,
+   "adj_success_rate": -0.1145,
+   "adj_explosive_rate": -0.0597,
+   "adj_ypp": -2.1552,
+   "adj_epa_per_play": -0.3095,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 26.4,
+   "forced_field_pos": 67.2,
+   "key_players": [
+    "J.Kastantin",
+    "N.Amachree",
+    "A.Dendy"
+   ]
+  },
+  "21": {
+   "plays": 195,
+   "success_rate": 0.2872,
+   "explosive_rate": 0.0718,
+   "ypp": 4.7538,
+   "epa_per_play": -0.2188,
+   "adj_success_rate": -0.0446,
+   "adj_explosive_rate": -0.0426,
+   "adj_ypp": -1.1782,
+   "adj_epa_per_play": -0.1307,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 26.6,
+   "forced_field_pos": 65.5,
+   "key_players": [
+    "S.Saunders",
+    "L.Sutton",
+    "J.Kinnard"
+   ]
+  },
+  "309": {
+   "plays": 51,
+   "success_rate": 0.3333,
+   "explosive_rate": 0.1569,
+   "ypp": 6.7451,
+   "epa_per_play": -0.1304,
+   "adj_success_rate": -0.0299,
+   "adj_explosive_rate": 0.0385,
+   "adj_ypp": 0.6363,
+   "adj_epa_per_play": -0.096,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.1,
+   "forced_field_pos": 69.1,
+   "key_players": [
+    "L.Winfield",
+    "S.Blanco",
+    "J.Garner"
+   ]
+  },
+  "2710": {
+   "plays": 62,
+   "success_rate": 0.2419,
+   "explosive_rate": 0.0806,
+   "ypp": 5.1129,
+   "epa_per_play": -0.1022,
+   "adj_success_rate": -0.0537,
+   "adj_explosive_rate": -0.0341,
+   "adj_ypp": -0.4121,
+   "adj_epa_per_play": 0.0065,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 22.5,
+   "forced_field_pos": 67.2,
+   "key_players": [
+    "K.McGill",
+    "I.Jackson-Anderson",
+    "J.Robinson"
+   ]
+  },
+  "155": {
+   "plays": 55,
+   "success_rate": 0.1818,
+   "explosive_rate": 0.1091,
+   "ypp": 3.8727,
+   "epa_per_play": -0.2222,
+   "adj_success_rate": -0.1549,
+   "adj_explosive_rate": 0.005,
+   "adj_ypp": -1.8381,
+   "adj_epa_per_play": -0.2226,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.1,
+   "forced_field_pos": 75.9,
+   "key_players": [
+    "J.Kaminski",
+    "C.Langama",
+    "M.Lawson"
+   ]
+  },
+  "127": {
+   "plays": 427,
+   "success_rate": 0.2506,
+   "explosive_rate": 0.0585,
+   "ypp": 3.8829,
+   "epa_per_play": -0.2633,
+   "adj_success_rate": -0.0623,
+   "adj_explosive_rate": -0.054,
+   "adj_ypp": -1.7731,
+   "adj_epa_per_play": -0.1551,
+   "turnovers_lost_per_game": 1.43,
+   "field_pos_avg_start": 29.3,
+   "forced_field_pos": 68.5,
+   "key_players": [
+    "A.Milivojevic",
+    "B.Tullis",
+    "J.Patterson"
+   ]
+  },
+  "2309": {
+   "plays": 52,
+   "success_rate": 0.0962,
+   "explosive_rate": 0.0192,
+   "ypp": 2.8654,
+   "epa_per_play": -0.3673,
+   "adj_success_rate": -0.2723,
+   "adj_explosive_rate": -0.1191,
+   "adj_ypp": -3.7141,
+   "adj_epa_per_play": -0.348,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 32.6,
+   "forced_field_pos": 59.9,
+   "key_players": [
+    "D.DeShields",
+    "D.Delaney Jr.",
+    "D.Ruffin"
+   ]
+  },
+  "2502": {
+   "plays": 34,
+   "success_rate": 0.1176,
+   "explosive_rate": 0.0882,
+   "ypp": 3.9118,
+   "epa_per_play": -0.8353,
+   "adj_success_rate": -0.1948,
+   "adj_explosive_rate": -0.0333,
+   "adj_ypp": -1.928,
+   "adj_epa_per_play": -0.7277,
+   "turnovers_lost_per_game": 3.0,
+   "field_pos_avg_start": 23.3,
+   "forced_field_pos": 60.4,
+   "key_players": [
+    "G.Downing",
+    "D.Thompson",
+    "N.Raby"
+   ]
+  },
+  "331": {
+   "plays": 75,
+   "success_rate": 0.2267,
+   "explosive_rate": 0.0933,
+   "ypp": 3.9333,
+   "epa_per_play": -0.1883,
+   "adj_success_rate": -0.0804,
+   "adj_explosive_rate": -0.0412,
+   "adj_ypp": -1.669,
+   "adj_epa_per_play": -0.039,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 23.3,
+   "forced_field_pos": 66.0,
+   "key_players": [
+    "N.Bell",
+    "M.Dotson",
+    "K.Allen III"
+   ]
+  },
+  "2199": {
+   "plays": 56,
+   "success_rate": 0.2143,
+   "explosive_rate": 0.0536,
+   "ypp": 3.7679,
+   "epa_per_play": -0.4593,
+   "adj_success_rate": -0.0814,
+   "adj_explosive_rate": -0.0611,
+   "adj_ypp": -1.7572,
+   "adj_epa_per_play": -0.3506,
+   "turnovers_lost_per_game": 3.0,
+   "field_pos_avg_start": 26.6,
+   "forced_field_pos": 69.7,
+   "key_players": [
+    "N.Kim",
+    "J.Mattord",
+    "B.Bennett"
+   ]
+  },
+  "77": {
+   "plays": 314,
+   "success_rate": 0.3057,
+   "explosive_rate": 0.1115,
+   "ypp": 5.2197,
+   "epa_per_play": -0.1112,
+   "adj_success_rate": -0.0152,
+   "adj_explosive_rate": -0.0086,
+   "adj_ypp": -0.7143,
+   "adj_epa_per_play": -0.015,
+   "turnovers_lost_per_game": 0.2,
+   "field_pos_avg_start": 26.3,
+   "forced_field_pos": 72.3,
+   "key_players": [
+    "N.Marchiol",
+    "A.Chiles",
+    "C.Komolafe"
+   ]
+  },
+  "120": {
+   "plays": 347,
+   "success_rate": 0.268,
+   "explosive_rate": 0.072,
+   "ypp": 4.2334,
+   "epa_per_play": -0.3073,
+   "adj_success_rate": -0.0636,
+   "adj_explosive_rate": -0.0455,
+   "adj_ypp": -1.665,
+   "adj_epa_per_play": -0.2343,
+   "turnovers_lost_per_game": 1.33,
+   "field_pos_avg_start": 29.9,
+   "forced_field_pos": 67.7,
+   "key_players": [
+    "M.Washington",
+    "D.Williams",
+    "C.Williams"
+   ]
+  },
+  "213": {
+   "plays": 393,
+   "success_rate": 0.2901,
+   "explosive_rate": 0.0865,
+   "ypp": 5.084,
+   "epa_per_play": -0.1149,
+   "adj_success_rate": -0.0127,
+   "adj_explosive_rate": -0.0278,
+   "adj_ypp": -0.3623,
+   "adj_epa_per_play": 0.0144,
+   "turnovers_lost_per_game": 0.67,
+   "field_pos_avg_start": 29.9,
+   "forced_field_pos": 72.8,
+   "key_players": [
+    "R.Becht",
+    "C.Hansen",
+    "C.Wallace"
+   ]
+  },
+  "2460": {
+   "plays": 55,
+   "success_rate": 0.1273,
+   "explosive_rate": 0.0545,
+   "ypp": 2.9455,
+   "epa_per_play": -0.4949,
+   "adj_success_rate": -0.1983,
+   "adj_explosive_rate": -0.0399,
+   "adj_ypp": -2.8365,
+   "adj_epa_per_play": -0.368,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 22.6,
+   "forced_field_pos": 70.2,
+   "key_players": [
+    "J.Dailey",
+    "C.Kamara",
+    "C.McThenia"
+   ]
+  },
+  "2440": {
+   "plays": 55,
+   "success_rate": 0.1636,
+   "explosive_rate": 0.0545,
+   "ypp": 3.2,
+   "epa_per_play": -0.4885,
+   "adj_success_rate": -0.1443,
+   "adj_explosive_rate": -0.0584,
+   "adj_ypp": -2.5641,
+   "adj_epa_per_play": -0.2955,
+   "turnovers_lost_per_game": 3.0,
+   "field_pos_avg_start": 26.5,
+   "forced_field_pos": 68.5,
+   "key_players": [
+    "A.Bianco",
+    "H.Turner Jr.",
+    "L.Duncan"
+   ]
+  },
+  "242": {
+   "plays": 41,
+   "success_rate": 0.1463,
+   "explosive_rate": 0.0488,
+   "ypp": 3.0244,
+   "epa_per_play": -0.5995,
+   "adj_success_rate": -0.2187,
+   "adj_explosive_rate": -0.0584,
+   "adj_ypp": -3.2985,
+   "adj_epa_per_play": -0.6124,
+   "turnovers_lost_per_game": 3.0,
+   "field_pos_avg_start": 23.1,
+   "forced_field_pos": 57.8,
+   "key_players": [
+    "J.Brown",
+    "D.Hardeman",
+    "T.Byars"
+   ]
+  },
+  "2426": {
+   "plays": 55,
+   "success_rate": 0.2727,
+   "explosive_rate": 0.0364,
+   "ypp": 4.2727,
+   "epa_per_play": 0.0147,
+   "adj_success_rate": -0.0923,
+   "adj_explosive_rate": -0.0708,
+   "adj_ypp": -2.0502,
+   "adj_epa_per_play": 0.0019,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.5,
+   "forced_field_pos": 71.0,
+   "key_players": [
+    "J.Gutierrez",
+    "M.Barrow",
+    "V.Listorti"
+   ]
+  },
+  "2751": {
+   "plays": 48,
+   "success_rate": 0.3542,
+   "explosive_rate": 0.1458,
+   "ypp": 5.8333,
+   "epa_per_play": -0.4174,
+   "adj_success_rate": 0.0319,
+   "adj_explosive_rate": 0.0269,
+   "adj_ypp": -0.3271,
+   "adj_epa_per_play": -0.3651,
+   "turnovers_lost_per_game": 3.0,
+   "field_pos_avg_start": 27.6,
+   "forced_field_pos": 65.6,
+   "key_players": [
+    "T.Hughes",
+    "S.Harris",
+    "N.Hamilton"
+   ]
+  },
+  "235": {
+   "plays": 51,
+   "success_rate": 0.2941,
+   "explosive_rate": 0.1373,
+   "ypp": 6.6471,
+   "epa_per_play": -0.1565,
+   "adj_success_rate": -0.071,
+   "adj_explosive_rate": 0.0261,
+   "adj_ypp": 0.7754,
+   "adj_epa_per_play": -0.1376,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 22.2,
+   "forced_field_pos": 79.8,
+   "key_players": [
+    "M.Stokes",
+    "J.Carter",
+    "M.Covey"
+   ]
+  },
+  "253": {
+   "plays": 59,
+   "success_rate": 0.339,
+   "explosive_rate": 0.1356,
+   "ypp": 5.3051,
+   "epa_per_play": -0.47,
+   "adj_success_rate": 0.0167,
+   "adj_explosive_rate": 0.0166,
+   "adj_ypp": -0.8554,
+   "adj_epa_per_play": -0.4177,
+   "turnovers_lost_per_game": 4.0,
+   "field_pos_avg_start": 21.9,
+   "forced_field_pos": 64.6,
+   "key_players": [
+    "W.Burns",
+    "F.Chalk",
+    "N.Alailefaleula"
+   ]
+  },
+  "233": {
+   "plays": 49,
+   "success_rate": 0.2041,
+   "explosive_rate": 0.1224,
+   "ypp": 3.8163,
+   "epa_per_play": -0.4855,
+   "adj_success_rate": -0.161,
+   "adj_explosive_rate": 0.0113,
+   "adj_ypp": -2.0554,
+   "adj_epa_per_play": -0.4665,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 35.1,
+   "forced_field_pos": 76.2,
+   "key_players": [
+    "A.Modrzewski",
+    "C.Pierre Jr.",
+    "K.Jones-Logan"
+   ]
+  },
+  "23": {
+   "plays": 56,
+   "success_rate": 0.3393,
+   "explosive_rate": 0.0714,
+   "ypp": 5.3929,
+   "epa_per_play": -0.0921,
+   "adj_success_rate": -0.024,
+   "adj_explosive_rate": -0.0469,
+   "adj_ypp": -0.716,
+   "adj_epa_per_play": -0.0577,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 27.3,
+   "forced_field_pos": 65.7,
+   "key_players": [
+    "L.Weaver",
+    "J.Bates",
+    "I.Carlson"
+   ]
+  },
+  "166": {
+   "plays": 181,
+   "success_rate": 0.2707,
+   "explosive_rate": 0.1105,
+   "ypp": 4.7238,
+   "epa_per_play": -0.2356,
+   "adj_success_rate": -0.0534,
+   "adj_explosive_rate": -0.0093,
+   "adj_ypp": -1.2379,
+   "adj_epa_per_play": -0.1441,
+   "turnovers_lost_per_game": 1.67,
+   "field_pos_avg_start": 29.6,
+   "forced_field_pos": 73.2,
+   "key_players": [
+    "T.Hedden",
+    "J.Jones",
+    "T.Washington Jr."
+   ]
+  },
+  "6": {
+   "plays": 72,
+   "success_rate": 0.2778,
+   "explosive_rate": 0.0833,
+   "ypp": 4.3611,
+   "epa_per_play": -0.2033,
+   "adj_success_rate": -0.0494,
+   "adj_explosive_rate": -0.0338,
+   "adj_ypp": -1.5503,
+   "adj_epa_per_play": -0.1024,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 31.5,
+   "forced_field_pos": 65.0,
+   "key_players": [
+    "J.Hollins",
+    "P.Martin",
+    "K.Phillips"
+   ]
+  },
+  "2335": {
+   "plays": 629,
+   "success_rate": 0.3784,
+   "explosive_rate": 0.1367,
+   "ypp": 6.7011,
+   "epa_per_play": 0.0061,
+   "adj_success_rate": 0.1054,
+   "adj_explosive_rate": 0.0375,
+   "adj_ypp": 1.8281,
+   "adj_epa_per_play": 0.1966,
+   "turnovers_lost_per_game": 0.7,
+   "field_pos_avg_start": 32.3,
+   "forced_field_pos": 72.5,
+   "key_players": [
+    "D.Purdie",
+    "K.Davis",
+    "P.Jones"
+   ]
+  },
+  "2348": {
+   "plays": 76,
+   "success_rate": 0.3158,
+   "explosive_rate": 0.0658,
+   "ypp": 4.5,
+   "epa_per_play": -0.1448,
+   "adj_success_rate": 0.0335,
+   "adj_explosive_rate": -0.0509,
+   "adj_ypp": -0.6518,
+   "adj_epa_per_play": -0.0188,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 33.5,
+   "forced_field_pos": 63.9,
+   "key_players": [
+    "T.Kukuk",
+    "J.Miller",
+    "A.Burnette"
+   ]
+  },
+  "2241": {
+   "plays": 68,
+   "success_rate": 0.2794,
+   "explosive_rate": 0.0882,
+   "ypp": 4.3088,
+   "epa_per_play": -0.315,
+   "adj_success_rate": -0.099,
+   "adj_explosive_rate": -0.0485,
+   "adj_ypp": -2.3923,
+   "adj_epa_per_play": -0.321,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 28.3,
+   "forced_field_pos": 67.7,
+   "key_players": [
+    "C.Pennington",
+    "C.Vann",
+    "A.Cormier"
+   ]
+  },
+  "256": {
+   "plays": 49,
+   "success_rate": 0.2857,
+   "explosive_rate": 0.1224,
+   "ypp": 6.2449,
+   "epa_per_play": -0.0992,
+   "adj_success_rate": -0.0927,
+   "adj_explosive_rate": -0.0143,
+   "adj_ypp": -0.4562,
+   "adj_epa_per_play": -0.1053,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 27.7,
+   "forced_field_pos": 72.0,
+   "key_players": [
+    "J.Evans",
+    "G.Pettaway",
+    "C.Coleman"
+   ]
+  },
+  "2534": {
+   "plays": 119,
+   "success_rate": 0.2269,
+   "explosive_rate": 0.1092,
+   "ypp": 4.5966,
+   "epa_per_play": -0.0595,
+   "adj_success_rate": -0.1026,
+   "adj_explosive_rate": -0.0122,
+   "adj_ypp": -1.4792,
+   "adj_epa_per_play": -0.0128,
+   "turnovers_lost_per_game": 0.0,
+   "field_pos_avg_start": 22.9,
+   "forced_field_pos": 72.4,
+   "key_players": [
+    "D.Bailey",
+    "L.Locke",
+    "M.Dowdy"
+   ]
+  },
+  "2815": {
+   "plays": 51,
+   "success_rate": 0.2157,
+   "explosive_rate": 0.0588,
+   "ypp": 3.098,
+   "epa_per_play": -0.4814,
+   "adj_success_rate": -0.0648,
+   "adj_explosive_rate": -0.0473,
+   "adj_ypp": -2.3525,
+   "adj_epa_per_play": -0.382,
+   "turnovers_lost_per_game": 2.0,
+   "field_pos_avg_start": 27.1,
+   "forced_field_pos": 66.0,
+   "key_players": [
+    "P.Battle",
+    "J.Rhodes",
+    "N.Triplett"
+   ]
+  },
+  "276": {
+   "plays": 68,
+   "success_rate": 0.3529,
+   "explosive_rate": 0.1176,
+   "ypp": 5.9265,
+   "epa_per_play": -0.1856,
+   "adj_success_rate": 0.0724,
+   "adj_explosive_rate": 0.0115,
+   "adj_ypp": 0.4759,
+   "adj_epa_per_play": -0.0862,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 27.9,
+   "forced_field_pos": 77.3,
+   "key_players": [
+    "C.Del Rio-Wilson",
+    "J.Barbie",
+    "J.Price"
+   ]
+  },
+  "2229": {
+   "plays": 122,
+   "success_rate": 0.2787,
+   "explosive_rate": 0.0984,
+   "ypp": 5.7459,
+   "epa_per_play": -0.1676,
+   "adj_success_rate": -0.0508,
+   "adj_explosive_rate": -0.0231,
+   "adj_ypp": -0.3299,
+   "adj_epa_per_play": -0.1209,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 26.5,
+   "forced_field_pos": 67.7,
+   "key_players": [
+    "J.Kohl",
+    "D.Lyons",
+    "A.Carrie"
+   ]
+  },
+  "2393": {
+   "plays": 55,
+   "success_rate": 0.3091,
+   "explosive_rate": 0.0909,
+   "ypp": 4.4545,
+   "epa_per_play": -0.3364,
+   "adj_success_rate": -0.0693,
+   "adj_explosive_rate": -0.0458,
+   "adj_ypp": -2.2466,
+   "adj_epa_per_play": -0.3424,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 38.6,
+   "forced_field_pos": 76.8,
+   "key_players": [
+    "R.Gagliano",
+    "A.Martin Jr.",
+    "Z.Butler"
+   ]
+  },
+  "55": {
+   "plays": 61,
+   "success_rate": 0.2951,
+   "explosive_rate": 0.1475,
+   "ypp": 7.4098,
+   "epa_per_play": -0.067,
+   "adj_success_rate": 0.0146,
+   "adj_explosive_rate": 0.0414,
+   "adj_ypp": 1.9593,
+   "adj_epa_per_play": 0.0324,
+   "turnovers_lost_per_game": 1.0,
+   "field_pos_avg_start": 25.7,
+   "forced_field_pos": 68.7,
+   "key_players": [
+    "C.Creel",
+    "K.Lando",
+    "J.Savage"
+   ]
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "poll": "AP Top 25",
+ "date": "2026-11-22T08:00Z",
+ "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/weeks/13/rankings/1?lang=en&region=us",
+ "top25": [
+  {
+   "rank": 1,
+   "team_id": "61",
+   "name": "Georgia Bulldogs",
+   "record": ""
+  },
+  {
+   "rank": 2,
+   "team_id": "254",
+   "name": "Utah Utes",
+   "record": ""
+  },
+  {
+   "rank": 3,
+   "team_id": "87",
+   "name": "Notre Dame Fighting Irish",
+   "record": ""
+  },
+  {
+   "rank": 4,
+   "team_id": "2390",
+   "name": "Miami Hurricanes",
+   "record": ""
+  },
+  {
+   "rank": 5,
+   "team_id": "251",
+   "name": "Texas Longhorns",
+   "record": ""
+  },
+  {
+   "rank": 6,
+   "team_id": "333",
+   "name": "Alabama Crimson Tide",
+   "record": ""
+  },
+  {
+   "rank": 7,
+   "team_id": "2633",
+   "name": "Tennessee Volunteers",
+   "record": ""
+  },
+  {
+   "rank": 8,
+   "team_id": "154",
+   "name": "Wake Forest Demon Deacons",
+   "record": ""
+  },
+  {
+   "rank": 9,
+   "team_id": "2641",
+   "name": "Texas Tech Red Raiders",
+   "record": ""
+  },
+  {
+   "rank": 10,
+   "team_id": "26",
+   "name": "UCLA Bruins",
+   "record": ""
+  },
+  {
+   "rank": 11,
+   "team_id": "252",
+   "name": "BYU Cougars",
+   "record": ""
+  },
+  {
+   "rank": 12,
+   "team_id": "84",
+   "name": "Indiana Hoosiers",
+   "record": ""
+  },
+  {
+   "rank": 13,
+   "team_id": "2294",
+   "name": "Iowa Hawkeyes",
+   "record": ""
+  },
+  {
+   "rank": 14,
+   "team_id": "2483",
+   "name": "Oregon Ducks",
+   "record": ""
+  },
+  {
+   "rank": 15,
+   "team_id": "30",
+   "name": "USC Trojans",
+   "record": ""
+  },
+  {
+   "rank": 16,
+   "team_id": "12",
+   "name": "Arizona Wildcats",
+   "record": ""
+  },
+  {
+   "rank": 17,
+   "team_id": "248",
+   "name": "Houston Cougars",
+   "record": ""
+  },
+  {
+   "rank": 18,
+   "team_id": "97",
+   "name": "Louisville Cardinals",
+   "record": ""
+  },
+  {
+   "rank": 19,
+   "team_id": "201",
+   "name": "Oklahoma Sooners",
+   "record": ""
+  },
+  {
+   "rank": 20,
+   "team_id": "57",
+   "name": "Florida Gators",
+   "record": ""
+  },
+  {
+   "rank": 21,
+   "team_id": "2335",
+   "name": "Liberty Flames",
+   "record": ""
+  },
+  {
+   "rank": 22,
+   "team_id": "68",
+   "name": "Boise State Broncos",
+   "record": ""
+  },
+  {
+   "rank": 23,
+   "team_id": "145",
+   "name": "Ole Miss Rebels",
+   "record": ""
+  },
+  {
+   "rank": 24,
+   "team_id": "142",
+   "name": "Missouri Tigers",
+   "record": ""
+  },
+  {
+   "rank": 25,
+   "team_id": "194",
+   "name": "Ohio State Buckeyes",
+   "record": ""
+  }
+ ]
+}
